@@ -56,7 +56,7 @@ public class TestiniumGittiGidiyor {
         element.click();
 
         Random random=new Random();
-        int upper=8;
+        int upper=48;
         int rand_item= random.nextInt(upper);
         WebElement item= driver.findElement(By.xpath("/html/body/div[5]/div[2]/div/div[2]/div[3]/div[2]/ul/li["+rand_item+"]"));
         item.click();
